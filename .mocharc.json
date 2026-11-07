@@ -1,0 +1,8 @@
+{
+  "spec": ["test/**/*.test.{js,jsx}"],
+  "extension": ["js", "jsx"],
+  "node-option": ["import=tsx"],
+  "require": ["test/setup.js"],
+  "watch-files": ["src/**/*", "test/**/*"],
+  "timeout": 5000
+}

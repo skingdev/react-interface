@@ -1,0 +1,13 @@
+{
+  "//": "Used by tsx (the Mocha loader) and Vite to compile JSX. The project is plain JavaScript.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
+    "noEmit": true
+  },
+  "include": ["src", "test"]
+}
